@@ -1,4 +1,3 @@
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Mensaje enviado. ¡Gracias por contactarme!');
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Portafolio cargado.');
 });
